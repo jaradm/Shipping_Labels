@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Shipping_Labels.jnlp">
+  <information>
+    <title>Shipping_Labels</title>
+    <vendor>muham</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Shipping_Labels.jar" size="5921" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="shipping_labels.Shipping_Labels"  name="Shipping_Labels" />
+  <update check="always"/>
+</jnlp>
